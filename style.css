@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.background {
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  height: 450px;
+  width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  direction: ltr;
+}
+
+.card .left {
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* background-image: url("./images/image-product-desktop.jpg"); */
+}
+
+.card .left img {
+  height: 450px;
+  width: 300px;
+  object-fit: fill;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.card .right {
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  direction: ltr;
+}
+
+.card .right h4 {
+  font-size: 20px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+
+.card .right p {
+  font-size: 20px;
+}
+
+.card .right .prices {
+  display: flex;
+  justify-content: center;
+}
+
+.card .right .prices h1 span {
+  color: hsl(158, 36%, 37%);
+  font-weight: bolder;
+  padding-right: 24px;
+}
+
+.card .right .prices p span {
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+.card .right button {
+  width: 100%;
+  padding: 15px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 7.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card .right button span {
+  padding-left: 10px;
+}
